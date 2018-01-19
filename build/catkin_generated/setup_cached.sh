@@ -7,7 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/jurain/Documents/euroc_stage_3/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/jurain/Documents/euroc_stage_3/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/jurain/Documents/euroc_stage_3/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/jurain/Documents/euroc_stage_3/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/jurain/Documents/Fleecops/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/jurain/Documents/Fleecops/devel/lib:$LD_LIBRARY_PATH"
+export PWD="/home/jurain/Documents/Fleecops/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/jurain/Documents/Fleecops/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/jurain/Documents/Fleecops/src:$ROS_PACKAGE_PATH"

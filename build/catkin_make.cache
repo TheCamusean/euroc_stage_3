@@ -1,2 +1,2 @@
 state_machine
--DCATKIN_DEVEL_PREFIX=/home/jurain/Documents/euroc_stage_3/devel -DCMAKE_INSTALL_PREFIX=/home/jurain/Documents/euroc_stage_3/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/jurain/Documents/Fleecops/devel -DCMAKE_INSTALL_PREFIX=/home/jurain/Documents/Fleecops/install -G Unix Makefiles

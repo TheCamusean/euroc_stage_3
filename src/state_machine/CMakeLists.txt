@@ -127,50 +127,50 @@ include_directories( include
 # target_link_libraries(hercules_description_node
 #   ${catkin_LIBRARIES}
 # )
-add_library(lib_state_machine_miiwa src/state_machine_miiwa_helper.cpp)
-target_link_libraries(lib_state_machine_miiwa ${catkin_LIBRARIES})
+# add_library(lib_state_machine_miiwa src/state_machine_miiwa_helper.cpp)
+# target_link_libraries(lib_state_machine_miiwa ${catkin_LIBRARIES})
 
 
 
 
-add_executable(lrmate_test src/lrmate_control_test.cpp)
-add_executable(lrmate_client src/joint_traj_control_client.cpp)
-add_executable(miiwa_client src/miiwa_control_client.cpp)
-add_executable(miiwa_base_client src/miiwa_base_control_client.cpp)
+# add_executable(lrmate_test src/lrmate_control_test.cpp)
+# add_executable(lrmate_client src/joint_traj_control_client.cpp)
+# add_executable(miiwa_client src/miiwa_control_client.cpp)
+# add_executable(miiwa_base_client src/miiwa_base_control_client.cpp)
 
-add_executable(miiwa_main src/miiwa_main.cpp)
-add_executable(miiwa_omnirob src/miiwa_omnirob.cpp)
-add_executable(state_machine_miiwa src/state_machine_miiwa.cpp)
-
-
-
-
-target_link_libraries(lrmate_test ${catkin_LIBRARIES})
-target_link_libraries(lrmate_client ${catkin_LIBRARIES})
-target_link_libraries(miiwa_client ${catkin_LIBRARIES})
-target_link_libraries(miiwa_base_client ${catkin_LIBRARIES})
-
-target_link_libraries(miiwa_main ${catkin_LIBRARIES})
-target_link_libraries(miiwa_omnirob ${catkin_LIBRARIES})
-target_link_libraries(state_machine_miiwa lib_state_machine_miiwa ${catkin_LIBRARIES})
+# add_executable(miiwa_main src/miiwa_main.cpp)
+# add_executable(miiwa_omnirob src/miiwa_omnirob.cpp)
+# add_executable(state_machine_miiwa src/state_machine_miiwa.cpp)
 
 
 
 
+# target_link_libraries(lrmate_test ${catkin_LIBRARIES})
+# target_link_libraries(lrmate_client ${catkin_LIBRARIES})
+# target_link_libraries(miiwa_client ${catkin_LIBRARIES})
+# target_link_libraries(miiwa_base_client ${catkin_LIBRARIES})
+
+# target_link_libraries(miiwa_main ${catkin_LIBRARIES})
+# target_link_libraries(miiwa_omnirob ${catkin_LIBRARIES})
+# target_link_libraries(state_machine_miiwa lib_state_machine_miiwa ${catkin_LIBRARIES})
 
 
-add_dependencies(lrmate_test logimat_description_generate_messages_cpp)
-add_dependencies(lrmate_client logimat_description_generate_messages_cpp)
-add_dependencies(miiwa_client logimat_description_generate_messages_cpp)
-add_dependencies(miiwa_base_client logimat_description_generate_messages_cpp)
-
-add_dependencies(miiwa_main logimat_description_generate_messages_cpp)
-add_dependencies(miiwa_omnirob logimat_description_generate_messages_cpp)
-
-add_dependencies(lib_state_machine_miiwa ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 
-add_dependencies(state_machine_miiwa lib_state_machine_miiwa logimat_description_generate_messages_cpp)
+
+
+# add_dependencies(lrmate_test logimat_description_generate_messages_cpp)
+# add_dependencies(lrmate_client logimat_description_generate_messages_cpp)
+# add_dependencies(miiwa_client logimat_description_generate_messages_cpp)
+# add_dependencies(miiwa_base_client logimat_description_generate_messages_cpp)
+
+# add_dependencies(miiwa_main logimat_description_generate_messages_cpp)
+# add_dependencies(miiwa_omnirob logimat_description_generate_messages_cpp)
+
+# add_dependencies(lib_state_machine_miiwa ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
+
+# add_dependencies(state_machine_miiwa lib_state_machine_miiwa logimat_description_generate_messages_cpp)
 
 
 

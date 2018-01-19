@@ -1,0 +1,12 @@
+platform:
+
+ joint_names: [omnirob_joint_x, omnirob_joint_y, omnirob_joint_theta]
+ base_link: "world"
+ tip_link: "omnirob_link"
+ ik_number_attemps: 2
+ ik_attemp_timeout: 10
+#~ joint_names: [elbow_joint, shoulder_lift_joint, shoulder_pan_joint, wrist_1_joint, wrist_2_joint, wrist_3_joint]
+#~ base_link: "base_link"
+#~ tip_link: "ee_link"
+#~ ik_number_attemps: 2
+#~ ik_attemp_timeout: 10

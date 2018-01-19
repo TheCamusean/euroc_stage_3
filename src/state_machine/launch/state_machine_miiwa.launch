@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <rosparam file="$(find state_machine)/config/miiwa_config.yaml" command="load" />	
+  <rosparam file="$(find state_machine)/config/omnirob_config.yaml" command="load" />	
+  <node name="state_machine_miiwa" pkg="state_machine" type="state_machine_miiwa" output="screen">
+  </node>
+</launch>

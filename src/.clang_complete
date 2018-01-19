@@ -1,0 +1,10 @@
+-I/opt/ros/kinetic/include
+-I/home/jurain/miiwa_2/devel
+-I/home/jurain/Documents/iiwa_euroc/devel
+-I/home/jurain/Documents/iiwa_euroc/devel/include
+-I/usr/local/include/eigen_functionalities
+-I/usr/local/include
+-I/usr/include/eigen3
+-I/home/jurain/idyntree-superbuild/build/install/include
+-I/home/jurain/miiwa_2/src/tekniker_common/manipulation/arm_manager/include
+-I/home/jurain/Documents/iiwa_euroc/src/iiwa/include
